@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./calculator.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div>
+            <br/>
+
+            <div class="row">
+                <!-- C button, clears all data-->
+                <div class="col-3">
+                    <button type="button" onclick="myFunction('clear')" class="btn warning">C</button>
+                </div>
+                <!-- prints the inputs and the outcome-->
+                <div class="col-8 innerbox">
+                    <div id="toprint"></div>  <!-- align it right or center. need an element inside -->
+                </div>
+            </div>
+            <br/>
+
+            <div class="row"> <!-- 7,8,9,/ row-->
+                <!-- Number 7 button-->
+                <div class="col-3">
+                    <button type="button" onclick="myFunction(7)" class="btn info">7</button>
+                </div>
+                <!-- Number 8 button-->
+                <div class="col-3">
+                    <button type="button" onclick="myFunction(8)" class="btn info">8</button>
+                </div>
+                <!-- Number 9 button-->
+                <div class="col-3">
+                    <button type="button" onclick="myFunction(9)" class="btn info">9</button>
+                </div>
+                <!-- Division button-->
+                <div class="col-3">
+                    <button type="button" onclick="myFunction('/')" class="btn secondary">/</button>
+                </div>
+            </div>
+            <br />
+
+            <div class="row">
+                <!-- 4,5,6,x row-->
+                <!-- Number 4 button-->
+                <div class="col-3">
+                    <button type="button" onclick="myFunction(4)" class="btn info">4</button>
+                </div>
+                <!-- Number 5 button-->
+                <div class="col-3">
+                    <button type="button" onclick="myFunction(5)" class="btn info">5</button>
+                </div>
+                <!-- Number 6 button-->
+                <div class="col-3">
+                    <button type="button" onclick="myFunction(6)" class="btn info">6</button>
+                </div>
+                <!-- Multiplication button-->
+                <div class="col-3">
+                    <button onclick="myFunction('x')" class="btn secondary">x</button>
+                </div>
+            </div>
+            <br />
+
+            <div class="row">
+                <!-- 1,2,3,- row-->
+                <!-- Number 1 button-->
+                <div class="col-3">
+                    <button type="button" onclick="myFunction(1)" class="btn info">1</button>
+                </div>
+                <!-- Number 2 button-->
+                <div class="col-3">
+                    <button type="button" onclick="myFunction(2)" class="btn info">2</button>
+                </div>
+                <!-- Number 3 button-->
+                <div class="col-3">
+                    <button type="button" onclick="myFunction(3)" class="btn info">3</button>
+                </div>
+                <!-- Minus button-->
+                <div class="col-3">
+                    <button type="button" onclick="myFunction('-')" class="btn secondary">-</button>
+                </div>
+            </div>
+            <br />
+
+            <div class="row">
+                <!-- 0,.,=,+ row-->
+                <!-- Number 0 button-->
+                <div class="col-3">
+                    <button type="button" onclick="myFunction(0)" class="btn info">0</button>
+                </div>
+                <!-- Dot button-->
+                <div class="col-3">
+                    <button type="button" onclick="myFunction('dot')" class="btn danger">.</button>
+                </div>
+                <!-- Equals button-->
+                <div class="col-3">
+                    <button type="button" onclick="myFunction('equals')" class="btn success">=</button>
+                </div>
+                <!-- Plus button-->
+                <div class="col-3">
+                    <button type="button" onclick="myFunction('+')" class="btn secondary">+</button>
+                </div>
+            </div>
+            <br />
+        </div>
+    </div>
+    
+    <script src="./node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
+
+</body>
+</html>

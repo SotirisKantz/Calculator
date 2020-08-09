@@ -1,0 +1,69 @@
+
+.innerbox {
+    border: 2px solid blue;
+}
+
+.btn {
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  width: 80%;
+  height: 100%;
+}
+
+
+/* Green */
+.success {
+  border-color: #4CAF50;
+  color: green;
+}
+
+.success:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* Blue */
+.info {
+  border-color: #2196F3;
+  color: dodgerblue
+}
+
+.info:hover {
+  background: #2196F3;
+  color: white;
+}
+
+/* Orange */
+.warning {
+  border-color: #ff9800;
+  color: orange;
+}
+
+.warning:hover {
+  background: #ff9800;
+  color: white;
+}
+
+/* Red */
+.danger {
+  border-color: #f44336;
+  color: red
+}
+
+.danger:hover {
+  background: #f44336;
+  color: white;
+}
+
+/*Secondary*/
+.secondary {
+  border-color: grey;
+  color: black;
+}
+
+.secondary:hover {
+  background: grey;
+  color: white;
+}
+
